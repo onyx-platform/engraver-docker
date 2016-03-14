@@ -22,7 +22,7 @@
 - name: Install docker-py
   pip:
     name: docker-py
-    version: 1.1.0
+    version: 1.7.1
   become: yes
 
 - name: Install httplib2
